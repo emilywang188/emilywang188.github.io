@@ -23,10 +23,16 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <CgCPlusPlus />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <TbBrandGolang />
@@ -58,12 +64,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
+      
     </Row>
   );
 }

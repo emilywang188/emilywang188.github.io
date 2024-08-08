@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { ImHeart } from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -8,26 +8,28 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Hi! My name is <span className="purple">Emily Wang </span>
+            and I'm from <span className="purple"> Chicago, Illinois.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            I'm a rising junior at Brown University working towards an Sc.B in Computer Science, with a focus on software engineering and artificial intelligence.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            Currently, I'm also working as a lead research assistant at Brown's Computational Cognitive Development Lab! 
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            When I'm not coding, you can usually find me:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImHeart />  Cooking <i><a style={{ fontSize:"15px" }} href="https://docs.google.com/document/d/1VyxiCoRIHVZGFZvMeJq1qrKKQNFSvRSDvqE_fJmmeK4/edit?usp=sharing">browse my cookbook!</a></i>
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImHeart />  Crafting <i><a style={{ fontSize:"15px" }} href="https://instagram.com/misoyarn">see my crochet!</a></i>
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImHeart />  Playing music
+            </li>
+            <li className="about-activity">
+              <ImHeart />  Travelling
             </li>
           </ul>
 
