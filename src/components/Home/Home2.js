@@ -4,7 +4,7 @@ import myImg from "../../Assets/portrait.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
+  AiFillMail,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -19,7 +19,7 @@ function Home2() {
             ... at a <span className="purple">{"< glance />"} </span> ...
             </h1>
             <p className="home-about-body">
-              I'm a computer science student at Brown with special interest in art, graphics, and design!
+              I'm a computer science student at Brown with special interests in art, graphics, and design!
               
               I'm most comfortable working in
                 <b className="purple"> Javascript, Python and C. </b>
@@ -27,11 +27,10 @@ function Home2() {
               <br />
               My goal as a programmer is to explore how to create the most  
               <b className='purple'> sleek, engaging, </b> and <b className='purple'> responsive</b> designs for the web.
-              
-              <br />
-              <br />
               I use what I've learned to apply to new projects with tools like
               <b className="purple"> Node.js </b> and <b className='purple'>React</b>.
+              <br/> <br />
+              I'm currently seeking <b className='purple'> </b>internship opportunities for summer 2025 in software development!
               
             </p>
           </Col>
@@ -44,10 +43,17 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
             <ul className="home-about-social-links">
+              <li className="social-icons">
+                <a
+                  href="mailto:emilywang188@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillMail />
+                </a>
+              </li>
               <li className="social-icons">
                 <a
                   href="https://github.com/emilywang188"
@@ -56,16 +62,6 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
                 </a>
               </li>
               <li className="social-icons">
@@ -89,6 +85,9 @@ function Home2() {
                 </a>
               </li>
             </ul>
+            <p>
+              <span className="purple">Connect </span>with me!
+            </p>
           </Col>
         </Row>
       </Container>
