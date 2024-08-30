@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5cd7ae4a.css",
+    "main.js": "/static/js/main.8c66823d.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/avge.png": "/static/media/avge.ad8780924cb316d57df4.png",
+    "static/media/weather.png": "/static/media/weather.7ed62ce90d93e5e471ef.png",
+    "static/media/mcmcp.png": "/static/media/mcmcp.3e9e617270bcc9a9ab83.png",
+    "static/media/image.jpg": "/static/media/image.676c9c1f1119322cfa50.jpg",
+    "static/media/sketchy.png": "/static/media/sketchy.5d8e5ea90ffa099b497c.png",
+    "static/media/portrait.png": "/static/media/portrait.fdbe2200626a39fd5a79.png",
+    "static/media/home.png": "/static/media/home.11f266e5181852c7d0eb.png",
+    "static/media/recipe.jpg": "/static/media/recipe.7f6af4305edd3db99fdf.jpg",
+    "static/media/WangEmilyResume.pdf": "/static/media/WangEmilyResume.3ed3d499ab5bcdf755e3.pdf",
+    "static/media/snake.png": "/static/media/snake.9dfd45672e341456f21f.png",
+    "static/media/name_logo.png": "/static/media/name_logo.8196e1ca601ace2149f8.png",
+    "static/media/pre.svg": "/static/media/pre.2f02fc8a3b0caef332b5.svg",
+    "index.html": "/index.html",
+    "main.5cd7ae4a.css.map": "/static/css/main.5cd7ae4a.css.map",
+    "main.8c66823d.js.map": "/static/js/main.8c66823d.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cd7ae4a.css",
+    "static/js/main.8c66823d.js"
+  ]
+}
