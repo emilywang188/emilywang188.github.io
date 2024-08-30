@@ -65,7 +65,7 @@ function Projects() {
               isBlog={false}
               title="Sketchy"
               description="Drawing program that supports free draw, layering, undo/redo, alongside creation and manipulation of shapes. Modeled to be a replica of Microsoft Paint. Built using Java and JavaFX."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              ghLink="https://github.com/brown-cs15-2022/sketchy-emilywang188"
             />
           </Col>
 
