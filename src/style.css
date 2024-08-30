@@ -55,19 +55,19 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: #EDE8F5;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: #B2A6D9;
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(222, 130, 235, 0.911);
-  border-radius: 12px;
+    background:#7b719c;
+    border-radius: 12px;
 }
 
 /* --------- */
@@ -77,7 +77,8 @@ button:focus {
   background-color: #ede8f5 !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
-  backdrop-filter: blur(15px) !important;
+  opacity: 0.95;
+  backdrop-filter: blur(30px) !important;
 }
 
 .navbar {
@@ -95,7 +96,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #f5c2c2 !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -153,8 +154,8 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 3.5em !important;
+  height: 3em !important;
+  width: 3em !important;
 }
 
 .navbar-nav .nav-link {
@@ -192,7 +193,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background: #f5c2c2;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -295,7 +296,7 @@ mark {
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
-  font-size: 2.4em !important;
+  font-size: 3em !important;
   color: #374375 !important;
 }
 
@@ -330,7 +331,7 @@ mark {
 }
 
 .home-about-description {
-  color: white !important;
+  color: #374375 !important;
   padding-top: 100px !important;
   padding-bottom: 20px !important;
   text-align: center;
@@ -345,7 +346,7 @@ mark {
 .home-about-social {
   text-align: center !important;
   padding-top: 25px;
-  color: white !important;
+  color: #374375 !important;
 }
 
 .home-about-social-links {
@@ -364,7 +365,7 @@ mark {
   text-align: center !important;
   font-size: 1.2em !important;
   line-height: 2em !important;
-  background: rgba(255, 255, 255, 0.972) !important;
+  background: #708c82 !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
 }
@@ -377,7 +378,7 @@ mark {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #68187a;
+  background: #ede8f5;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -385,13 +386,13 @@ mark {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #801f95;
+  box-shadow: 0 0 10px #708c82;
 }
 
 .home-social-icons:hover {
-  color: #87209e;
-  box-shadow: 0 0 5px #87209e;
-  text-shadow: 0 0 2px #87209e;
+  color: #f5c2c2;
+  box-shadow: 0 0 15px #708c82;
+  text-shadow: 0 0 2px #708c82;
 }
 
 .social-icons {
@@ -401,14 +402,14 @@ mark {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+  color: #ede8f5 !important;
 }
 
 /* --------- */
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(10, 4, 22);
+  background-color: #b2a6d9;
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
@@ -418,7 +419,7 @@ mark {
 }
 
 .footer-body {
-  z-index: 1;
+  z-index: 100;
   text-align: center !important;
 }
 
@@ -434,10 +435,22 @@ mark {
 
 .footer h3 {
   font-size: 1em;
-  color: white !important;
+  color: #ede8f5 !important;
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
 }
+.footer h4 {
+  font-size: .8em;
+  color: #ede8f5 !important;
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
+
+.footer h4 a {
+  color: #f5c2c2 !important;
+  
+}
+
 .footer-icons {
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
@@ -454,7 +467,7 @@ mark {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-color: #ede8f5;
 }
 
 .project-card {
@@ -466,8 +479,8 @@ mark {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
-  color: white !important;
+  box-shadow: 0 4px 5px 3px #B2A6D9 !important;
+  color: #374375 !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
@@ -476,7 +489,8 @@ mark {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  box-shadow: 0 4px 4px 5px #F5C2C2 !important;
+  opacity: 1 !important;
 }
 
 .blog-card {
@@ -552,21 +566,22 @@ mark {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-color: #ede8f5 !important;
   color: white !important;
 }
 
 .tech-icons {
   font-size: 4.5em !important;
+  color: #708C82;
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  border: 1.7px solid #F5C2C2 !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  box-shadow: 4px 5px 4px 3px rgba(178, 166, 217, 0.3) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
@@ -580,7 +595,7 @@ mark {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  border: 2.2px solid #B2A6D9 !important;
 }
 .tech-icon-images {
   padding: 20px !important;
@@ -612,8 +627,21 @@ mark {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-color: #ede8f5 !important;
   color: white !important;
+}
+
+.resume-button {
+  background-color:#374375 !important;
+  border-color:#374375 !important;
+  transition: 0.2s !important;
+}
+
+.resume-button:hover {
+  background-color:#374375 !important;
+  border-color:#374375 !important;
+  opacity:0.8 !important;
+  transition: 0.5s;
 }
 
 .resume {
@@ -651,7 +679,7 @@ mark {
 .resume .resume-item {
   padding: 0 0 10px 25px;
   margin-top: -2px;
-  border-left: 2px solid #8a49a8;
+  border-left: 2px solid #374375;
   position: relative;
 }
 
@@ -688,7 +716,7 @@ mark {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #8a49a8;
+  border: 2px solid #374375
 }
 
 .like-item {
@@ -708,8 +736,8 @@ mark {
 
 .like-btn:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+  background-color: #374375 !important;
+  border-color: #374375 !important;
 }
 
 .animate-like {

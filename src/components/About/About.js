@@ -4,13 +4,13 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import laptopImg from "../../Assets/image.jpg";
 import Toolstack from "./Toolstack";
+import Langstack from "./Langstack";
 
 function About() {
   return (
     <Container fluid className="about-section">
-      <Particle />
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
@@ -21,8 +21,8 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              A Bit More <strong className="purple">About Me!</strong>
+            <h1 style={{ color: '#374375', fontSize: "2.1em", paddingBottom: "20px" }}>
+              <strong>More <i><span style={{ color: '#708c82'}}>About Me!</span></i></strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -31,21 +31,26 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img style = {{ maxHeight: '35vh' }}src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
-        <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+        <h1 className="project-heading" >
+          <span style={{ color: '#374375' }}><b>Frontend Skillset</b></span>
         </h1>
 
         <Techstack />
 
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+        <span style={{ color: '#374375' }}><b>Backend Skillset</b></span>
         </h1>
         <Toolstack />
 
-        <Github />
+        <h1 className="project-heading">
+        <span style={{ color: '#374375' }}><b>More Languages</b></span>
+        </h1>
+        <Langstack />
+
+        {/* <Github /> */}
       </Container>
     </Container>
   );

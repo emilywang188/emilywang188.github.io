@@ -16,21 +16,14 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-            ... at a <span className="purple">{"< glance />"} </span> ...
+            <b>At a </b> <span style={{ color: '#708c82'}}>{"<glance />"} </span> <b>...</b>
             </h1>
             <p className="home-about-body">
-              I'm a computer science student at Brown with special interests in art, graphics, and design!
-              
-              I'm most comfortable working in
-                <b className="purple"> Javascript, Python and C. </b>
-              <br />
-              <br />
-              My goal as a programmer is to explore how to create the most  
-              <b className='purple'> sleek, engaging, </b> and <b className='purple'> responsive</b> designs for the web.
-              I use what I've learned to apply to new projects with tools like
-              <b className="purple"> Node.js </b> and <b className='purple'>React</b>.
-              <br/> <br />
-              I'm currently seeking <b className='purple'> </b>internship opportunities for summer 2025 in software development!
+              I'm a computer science student at Brown University with special interests in art, graphics, and design! I'm currently working at Brown's Computational Cognitive Development Lab and as a teaching assistant for Artificial Intelligence (CS 410 / CS 1411).
+              <br /><br />
+              I am most comfortable working in Javascript, Python, and C. I'm currently exploring ways to create the most responsive and comfortable experiences in user interfaces. I love creating apps to improve the quality of life for different communities in unique ways. 
+              <br /><br /> 
+              I am currently seeking opportunities in the industry for summer 2025 in frontend development and software engineering!
               
             </p>
           </Col>
@@ -42,7 +35,7 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1 style={{ paddingBottom:10 }}><b>Get in touch!</b></h1>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
@@ -85,9 +78,7 @@ function Home2() {
                 </a>
               </li>
             </ul>
-            <p>
-              <span className="purple">Connect </span>with me!
-            </p>
+           
           </Col>
         </Row>
       </Container>

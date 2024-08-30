@@ -12,12 +12,12 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                <i><b><span style= {{ backgroundColor: '#f5c2c2' }}>welcome!</span></b></i>
+                <i><b><span style= {{ backgroundColor: '#f5c2c2' }}>Welcome!</span></b></i>
               </h1>
 
               <h1 className="heading-name">
-                my name is 
-                <strong className="main-name"> emily wang</strong>
+                My name is 
+                <strong className="main-name"> <i>Emily Wang</i></strong>
               </h1>
 
               <h1 style={{ paddingBottom: 15 }} className="heading-name">
